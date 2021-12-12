@@ -1,4 +1,4 @@
-sudo: false
+
 
 Language: node_js
 
