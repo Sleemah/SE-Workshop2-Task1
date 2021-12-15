@@ -1,7 +1,7 @@
 {
   "name": "raghad",
   "version": "1.0.0",
-  "description": "",
+  "description": "The purpose of this task in workshop2 is developing a web-based machine learning system for simple text classification.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"No test specified\""
@@ -12,6 +12,15 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "fasttext": "^1.0.0",
     "node-fasttext": "^1.0.0-alpha.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sleemah/SE-Workshop2-Task1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sleemah/SE-Workshop2-Task1/issues"
+  },
+  "homepage": "https://github.com/Sleemah/SE-Workshop2-Task1#readme"
 }

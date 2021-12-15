@@ -23,10 +23,12 @@ app.get("/", (req, res) => {
   res.sendfile("index.html");
 });
 
-app.get("/fasttext/", function (req, res) {
+app.get("/fasttext/", async function (req, res) {
   var statement = req.param("statement");
-  res.send(getFastTextResults(statement));
+  res.send(await getFastTextResults(statement));
 });
+
+
 
 function getFastTextResults(statement) {
   //predict returns an array with the input and predictions for best cateogires
@@ -38,9 +40,9 @@ function getFastTextResults(statement) {
     .catch((err) => {
       console.log(err);
     });
-  return "success!";
+  return statement;
 }
 
 app.listen(8000, () => {
   console.log("Listening on port 8000!");
-});
+});node 

@@ -1,17 +1,74 @@
  <!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>Your front-end</title>
-</head>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<title> My Website For FastText </title>
+		
+	  </head>
 
+	  <body>
+		<!-- Header -->
+		<section id="header">
+		  <div class="header container">
+			<div class="nav-bar">
+			  <div class="brand">
+				<a href="#hero">
+					
+					<a href="#" class="logo">
+						<img src="img/logo.png" alt="">
+				
+			  </div>
+			  <div class="nav-list">
+				<div class="hamburger">
+				  <div class="bar"></div>
+				</div>
+				<ul>
+				  <li><a href="#hero" data-after="Home">Home</a></li>
+				  <li><a href="#About" data-after="About">About</a></li>
+				  
+				
+				</ul>
+			  </div>
+			</div>
+		  </div>
+		</section>
+		<!-- End Header -->
+
+		<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>FOR HEALTHY LIFE</h3>
+        <p>For a healthier society, we care about healthy meals</p> 
+    </div>
+</section>
+<!-- home section ends -->
 <body>
-<form action="/fasttext">
-	Enter your text to be classified<br>
-	<input type="text" name="statement">
-	<input type="submit" value="Submit">
-</form> 
+	
 
+<form action="/fasttext">
+	<div class="box-contain">
+
+	<img src="img/PIC1.png" alt="">
+	 Enter your your favorite meal : <br>
+	<input id= "text" type="text" name="statement" >
+	<input type="submit" value="Submit">
+	<input type="button" value="Clear" onclick="document.getElementById('text').value = '';">
+	<div class="content1">
+	
+        </div>
 </body>
+
+
+
+<!-- footer section starts  -->
+<section class="footer">
+    <div class="credit">created by:<span> salema </span> | supervisor : Dr.lamees</div>
+</section>
+<!-- footer section ends -->
+
 
 </html> 
