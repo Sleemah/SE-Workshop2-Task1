@@ -8,14 +8,22 @@ So we uploade all files that downloaded afer Run.
 
 # SE-Workshop2-Task2 :
 The first stage is to connect the throw-hub to the travis And build my web page.. in html - css - javascript And build the project based on FastTex
-1- travisCI Passed
+##1- travisCI Passed 
+
 ![1](https://user-images.githubusercontent.com/94294032/146260355-a46ceb3d-8480-4688-8ab5-f7c798384dcf.PNG)
-2- my web page header part :
+
+=
+##2- my web page header part :
+
 ![2](https://user-images.githubusercontent.com/94294032/146261248-06003f7d-92c1-453f-8e47-45141e65e8b8.PNG)
-3- my web page -fasttext lable part  :
+
+
+##3- my web page -fasttext lable part  :
 ![3](https://user-images.githubusercontent.com/94294032/146261574-9bab1a59-cb66-4d99-9498-f33595ab89df.PNG)
-ex result : 
-will i wirte in text field "orange" return : 
+##ex result : 
+
+
+##will i wirte in text field "orange" return : 
 ![4](https://user-images.githubusercontent.com/94294032/146262331-f5c530f7-e10b-442f-b1d8-ea46fc5cd585.PNG)
 
 
